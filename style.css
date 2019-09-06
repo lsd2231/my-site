@@ -182,6 +182,7 @@ min-height: 402px;
 }
 .container__skills{
     width: 960px;
+    height: 217px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -234,8 +235,19 @@ min-height: 402px;
     border:1px solid #ebebeb;
     margin: 0 auto;
 }
+.container__skills2{
+    width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
 .img__icons{
     margin-bottom:35px;
+    height: 50px;
+}
+.img__icons2{
+    margin-top: 39px;
+    margin-bottom: 35px;
     height: 50px;
 }
 body{
