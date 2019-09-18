@@ -287,6 +287,7 @@ min-height: 402px;
     width: 50px;
     margin-top: 21px;
     margin-bottom: 0;
+
 }
 
 .ourteam__img{
@@ -342,6 +343,134 @@ min-height: 402px;
 }
 .ourproject{
     height: 737px;
+}
+.ourproject__head{
+    width: 960px;
+    height: 157px;
+    margin: 0 auto;
+    padding-top:70px;
+    display: flex;
+    justify-content: space-between;
+}
+.ourproject__link{
+    color: #413d4b;
+    font-size: 14px;
+    padding-right: 10px;
+}
+.ourproject__text{
+    margin: 0;
+    font-size: 22px ;
+    padding-left: 10px;
+}
+.ourwork{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-height: 400px;
+}
+.retangle{
+ width: 100%;
+}
+.retangle:nth-child(even){
+    width:  calc(100% / 6);
+    height: 200px;
+}
+.retangle:nth-child(odd) {
+    width:  calc(100% / 6);
+    height: 200px;
+}
+.cat{
+    width: 100%;
+    height: 200px;
+}
+.ourproject__btn{
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+}
+.aboutus{
+    background-image: url(img/background-aboutus.png);
+    background-size: cover;
+    background-position: right;
+    height: 500px;
+}
+.aboutus__quota{
+    color: #f0f0f2;
+    font-size: 100px;
+    font-family: 'Playfair Display Regular';
+    line-height: 22px;
+    padding-top: 96px;
+    width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    height: 0;
+}
+.aboutus__text{
+    max-width: 780px;
+    max-height: 145px;
+    text-align: center;
+    color: #e9e8eb;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 0 auto;
+    font-family: 'Playfair Display Regular';
+    text-indent: 20px;
+    padding-top: 46px;
+}
+.reviews{
+    height: 653px;
+    width: 960px;
+    margin: 0 auto;
+    padding:0 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.reviews__container{
+    width: 460px;
+}
+.reviews__form{
+    display: flex;
+    flex-direction: column;
+}
+.reviews__title, .client__logo{
+    margin: 71px 0 35px 0;
+    font-size: 22px;
+    color: #413d4b;
+    font-weight:bold;
+}
+.reviews__data{
+    margin-bottom: 23px;
+    height: 47px;
+    font-size: 14px;
+    text-indent: 20px;
+    border: 1px solid #e5e5e5;
+}
+.reviews__massage{
+    margin-bottom: 23px;
+    height: 198px;
+    font-size: 14px;
+    text-indent: 20px;
+    padding: 0;
+    padding-top: 21px;
+    border: 1px solid #e5e5e5; 
+}
+.button_reviews{
+    background:none;
+    border:1px solid #00e0d0;
+    color:#00e0d0;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 14px 32px;
+    text-align: center;
+    border-radius: 3px;
+}
+.client{
+    width: 390px;
+}
+.client__logo{
+    display: flex;
+    justify-content: space-between;
 }
 body{
  margin:0;
